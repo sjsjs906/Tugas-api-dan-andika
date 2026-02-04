@@ -234,3 +234,46 @@ body{
     background: linear-gradient(90deg, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0.6) 100% );
     z-index: 1;
 }
+.section-padding{
+  padding: 80px 0;
+}
+.sectiom-header{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-header h2{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: var(--putih);
+}
+.section-header p{
+  color:var(--abu);
+}
+.features-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,ifr));
+  gap: 30px;
+}
+.features-card{
+  background: rgba(255,2555,255,0.05);
+  padding: 30px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+.features-card:hover{
+  transform: translateY(-10px);
+  border-color: var(--ungu);
+}
+.features-card .icon{
+  font-size:3rem;
+  margin-bottom: 20px;
+}
+.features-card h3{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--putih);
+}
+.features-card p {
+  color: var(--abu);
+  line-height: 1.6;
+}
