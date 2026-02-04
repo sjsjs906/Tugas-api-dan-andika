@@ -277,3 +277,61 @@ body{
   color: var(--abu);
   line-height: 1.6;
 }
+.section-dark{
+  background-color:#1e293b;
+}
+.curse-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.curse-card{
+  background: var(--gelap);
+  border-radius: 15px;
+  overflow: hidden;
+  width: 350px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: 0.3s;
+}
+.curse-card:hover{
+  transform: scale(1.02);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.curse-img{
+  width: 100%;
+  height: 200px;
+  overflow: cover;
+}
+.curse-body{
+  padding: 25px;
+}
+.tag{
+  background: var(--ungu);
+  color:white;
+  padding:4px 12px ;
+  border-radius:50px;
+  font-size:0.8rem;
+  font-weight:600;
+}
+.curse-body h3{
+  margin: 15px 0 10px;
+  font-size: 1.3rem;
+  color: var(--putih);
+}
+.curse-body p{
+  color: var(--abu);
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+.link-arrow{
+  color: var(--ungu);
+  font-weight: 700;
+  transition: 0.3s;
+}
+.link-arrow:hover{
+  letter-spacing: 1px;
+}
+.link-arrow:hover{
+  letter-spacing: 1px;
+}
